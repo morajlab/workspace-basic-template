@@ -1,0 +1,38 @@
+{
+  "name": "workspace-basic-template",
+  "description": "Basic template for your workspace",
+  "version": "0.0.1-alpha",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@nrwl/cli": "14.5.1",
+    "@nrwl/workspace": "14.5.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nx": "14.5.1",
+    "prettier": "^2.7.1",
+    "typescript": "~4.7.2"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morajlab/workspace-basic-template.git"
+  },
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "bugs": {
+    "url": "https://github.com/morajlab/workspace-basic-template/issues"
+  },
+  "homepage": "https://github.com/morajlab/workspace-basic-template#readme",
+  "lint-staged": {
+    "**/*": "prettier -w -u"
+  }
+}
