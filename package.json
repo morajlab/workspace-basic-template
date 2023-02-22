@@ -1,24 +1,19 @@
 {
   "name": "workspace-basic-template",
   "description": "Basic template for your workspace",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx husky install"
+  },
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@nrwl/cli": "14.5.1",
-    "@nrwl/workspace": "14.5.1",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "nx": "14.5.1",
-    "prettier": "^2.7.1",
-    "typescript": "~4.7.2"
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest"
   },
-  "workspaces": [
-    "packages/**"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/morajlab/workspace-basic-template.git"
