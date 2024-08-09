@@ -1,10 +1,10 @@
 {
   "name": "workspace-basic-template",
   "description": "Basic template for your workspace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npx husky install"
+    "postinstall": "npx husky"
   },
   "private": true,
   "devDependencies": {
